@@ -15,6 +15,8 @@ const products = [
   { name: "Seven Herbal Shampoo", price: 300, imageUrl:"https://imgur.com/RJ5EEdL.jpg" }, //
   { name: "TRESemme Shampoo", price: 1200, imageUrl:"https://imgur.com/EOofkeV.jpg" }, //
   { name: "Vierro Shampoo", price: 550, imageUrl:"https://imgur.com/sILVre7.jpg" }, //
+  { name: "Shampoo Hair Color", price: 50, imageUrl:".https://imgur.com/gUGcrLTjpg" }, //
+  { name: "Yardlie Black Hair Shampoo", price: 1000, imageUrl:".https://imgur.com/sLJkL2Tjpg" }, //
   { name: "Seven Herbal Oil", price: 300, imageUrl:"https://imgur.com/CDU6kmY.jpg" }, //
    { name: "Vatika Oil (L)", price: 550, imageUrl:"https://imgur.com/eQVA6lC.jpg" }, //
   { name: "Emami 7 Oil (L)", price: 600, imageUrl:"https://imgur.com/rLepFA9.jpg" }, //
@@ -24,7 +26,7 @@ const products = [
   { name: "Star Royal Oil", price: 350, imageUrl:"https://imgur.com/IRlQK0S.jpg" }, //
   { name: "Dirham Hair Oil", price: 350, imageUrl:"https://imgur.com/itj65X2.jpg" }, //
    { name: "Rose Hair Oil", price: 250, imageUrl:"https://imgur.com/DRCqgOW.jpg" }, //
-   { name: "Johnson Baby Oil", price: 400, imageUrl:"https://imgur.com/wvTWmjq.jpg" }, //
+   { name: "Johnson Baby Oil", price: 450, imageUrl:"https://imgur.com/wvTWmjq.jpg" }, //
   { name: "Dabur Amla Oil (L)", price: 400, imageUrl:"https://imgur.com/cMIrziJ.jpg" }, //
   { name: "Spanish Oil", price: 500, imageUrl:"https://imgur.com/aiM2V0S.jpg" }, //
   { name: "Coconut Oil (L)", price: 700, imageUrl:"https://imgur.com/O3oGigi.jpg" }, //
@@ -34,8 +36,10 @@ const products = [
   { name: "Goree Beauty Cream", price: 250, imageUrl:"https://imgur.com/TJ8sBhP.jpg" }, //
   { name: "Layla Beauty Cream", price: 250, imageUrl:"https://imgur.com/y9LQOXP.jpg" }, //
   { name: "Seven Day Cream (L)", price: 430, imageUrl:"https://imgur.com/pmXRBCv.jpg" }, //
-  { name: "Seven Day Cream (S)", price: 180, imageUrl:"https://imgur.com/CPYp7BX.jpg" }, //
+  { name: "TouchMe Shaving Cream", price: 150, imageUrl:"https://imgur.com/wPqT9GB.jpg" }, //
   { name: "Johnson Baby Cream", price: 700, imageUrl:"https://imgur.com/QIetg15.jpg" }, //
+  { name: "Johnson Baby Powder", price: 400, imageUrl:"https://imgur.com/ejVovL1.jpg" }, //
+  { name: "Baby Powder (PYRO)", price: 200, imageUrl:"https://imgur.com/mhbji55.jpg" }, //  
   { name: "Vaseline Blueseal Orignal", price: 550, imageUrl:"https://imgur.com/ybEc2qn.jpg" }, //
   { name: "Vaseline Blueseal Men", price: 550, imageUrl:"https://imgur.com/pgQbTUv.jpg" }, //
   { name: "Vaseline Max Lady", price: 700, imageUrl:"https://imgur.com/M4tYH4e.jpg" }, //
@@ -56,8 +60,8 @@ const products = [
   { name: "Doctor ToothPaste (65g)", price: 180, imageUrl:"https://imgur.com/FecDdff.jpg" }, //
   { name: "Doctor ToothPaste (35g)", price: 80, imageUrl:"https://imgur.com/M1btrFZ.jpg" }, //
   { name: "Sensodyne ToothPaste (100ml)", price: 250, imageUrl:"https://imgur.com/sRMiGDI.jpg" }, //
-  { name: "CloseUp (White Now) ToothPaste", price: 000, imageUrl:"https://imgur.com/tkzcAHt.jpg" }, //
-  { name: "CloseUp (Ice White) ToothPaste", price: 000, imageUrl:"https://imgur.com/BOs8Ho3.jpg" }, //
+  { name: "CloseUp (White Now) ToothPaste", price: 250, imageUrl:"https://imgur.com/tkzcAHt.jpg" }, //
+  { name: "CloseUp (Ice White) ToothPaste", price: 300, imageUrl:"https://imgur.com/BOs8Ho3.jpg" }, //
   { name: "Guardex Soap", price: 100, imageUrl:"https://imgur.com/rFtkO1h.jpg" }, //
   { name: "IVY Soap", price: 100, imageUrl:"https://imgur.com/wpzuGLE.jpg" }, //
   { name: "Dove Soap", price: 300, imageUrl:"https://imgur.com/lUmHrjq.jpg" }, //
@@ -68,11 +72,37 @@ const products = [
   { name: "No.1 Soap", price: 180, imageUrl:"https://imgur.com/J0y3RSz.jpg" }, //
   { name: "Pears 3-Bars Soap", price: 300, imageUrl:"https://imgur.com/VQRVJE9.jpg" }, //
   { name: "Pears Soap", price: 200, imageUrl:"https://imgur.com/kEFDnbV.jpg" }, //
-  { name: "Skin White Soap", price: 00, imageUrl:"https://imgur.com/Ue7A3Tn.jpg" }, //
+  { name: "Skin White Soap", price: 150, imageUrl:"https://imgur.com/Ue7A3Tn.jpg" }, //
   { name: "Nivea Baby Soap", price: 150, imageUrl:"https://imgur.com/8q9BKq6.jpg" }, //
   { name: "Gillete Foam", price: 500, imageUrl:"https://imgur.com/f1bxEZH.jpg" }, //
   { name: "WildStone CODE BodySpray", price: 1000, imageUrl:"https://imgur.com/zn2xrd0.jpg" }, //
-  { name: "Just call me maxi perfume", price: 1850, imageUrl:"https://imgur.com/HezFYci.jpg" }, //
+  { name: "Cool Blue Bodyspray", price: 500, imageUrl:"https://imgur.com/cA0ip68.jpg" }, //
+  { name: "Home Spray", price: 250, imageUrl:"https://imgur.com/ANzQGlB.jpg" }, //
+  { name: "AXE (Signature) BodySpray", price: 550, imageUrl:"https://imgur.com/mshF5fT.jpg" }, //
+  { name: "Sapil BodySpray", price: 400, imageUrl:"https://imgur.com/Vs0m68O.jpg" }, //
+  { name: "Havoc BodySpray", price: 500, imageUrl:"https://imgur.com/Rw5H3g7.jpg" }, //  
+  { name: "Just call me maxi parfum", price: 1850, imageUrl:"https://imgur.com/HezFYci.jpg" }, //
+  { name: "Blue Lady parfum", price: 2000, imageUrl:"https://imgur.com/odz5Fcx.jpg" }, //
+  { name: "Geometry parfum", price: 1000, imageUrl:"https://imgur.com/Rsxiza8.jpg" }, //
+  { name: "Fifa Worldcup Brazil parfum", price: 1000, imageUrl:"https://imgur.com/3mGUrup.jpg" }, //
+  { name: "Secret parfum", price: 1750, imageUrl:"https://imgur.com/hvGkxTa.jpg" }, //
+  { name: "Danielhills Black parfum", price: 2000, imageUrl:"https://imgur.com/gJc0VWM.jpg" }, //
+  { name: "Challenger parfum", price: 700, imageUrl:"https://imgur.com/0RwYzki.jpg" }, //
+  { name: "White Orchid parfum", price: 2000, imageUrl:"https://imgur.com/IFC8G8f.jpg" }, //
+  { name: "SHIYAKA-AMEERA-RAHAL parfum", price: 800, imageUrl:"https://imgur.com/vpDxyqZ.jpg" }, //
+  { name: "Ultimate Blue parfum", price: 1500, imageUrl:"https://imgur.com/YcxDCxE.jpg" }, //
+  { name: "Ponds Facewash", price: 450, imageUrl:"https://imgur.com/1vIxjfa.jpg" }, //
+  { name: "BF- Beauty facewash", price: 400, imageUrl:"https://imgur.com/K0iZa6V.jpg" }, //
+  { name: "Dove Facewash", price: 350, imageUrl:"https://imgur.com/bg5oCTZ.jpg" }, //
+  { name: "Fairlovely Facewash", price: 200, imageUrl:"https://imgur.com/mu5Jsdr.jpg" }, //
+  { name: "Under Shave (Body Razor)", price: 30, imageUrl:"https://imgur.com/8jBOMSY.jpg" }, //
+  { name: "Baby Pack (Pampers)", price: 30, imageUrl:"https://imgur.com/fIdtul4.jpg" }, //
+  { name: "Ladies Pack", price: 150, imageUrl:"https://imgur.com/6uCW2Yb.jpg" }, //
+  { name: "Cotton Buds(Ear)", price: 50, imageUrl:"https://imgur.com/lG0NpHR.jpg" }, //
+  { name: "Gillete Blue-2", price: 170, imageUrl:"https://imgur.com/l2z45sp.jpg" }, //
+  { name: "Gillete Blue-3", price: 300, imageUrl:"https://imgur.com/fy52nLG.jpg" }, //
+  { name: "Black Rose Color", price: 150, imageUrl:"https://imgur.com/3f5ZFiW.jpg" }, //
+  { name: "Tissue Paper (Nine Leaves)", price: 200, imageUrl:"https://imgur.com/mVCHTgB.jpg" }, //
 ];
 
 
