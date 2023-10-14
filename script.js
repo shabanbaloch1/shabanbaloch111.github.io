@@ -72,6 +72,7 @@ const products = [
   { name: "Nivea Baby Soap", price: 150, imageUrl:"https://imgur.com/8q9BKq6.jpg" }, //
   { name: "Gillete Foam", price: 500, imageUrl:"https://imgur.com/f1bxEZH.jpg" }, //
   { name: "WildStone CODE BodySpray", price: 1000, imageUrl:"https://imgur.com/zn2xrd0.jpg" }, //
+  { name: "Just call me maxi perfume", price: 1850, imageUrl:"https://imgur.com/HezFYci.jpg" }, //
 ];
 
 
