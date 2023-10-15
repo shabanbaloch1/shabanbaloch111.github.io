@@ -15,8 +15,8 @@ const products = [
   { name: "Seven Herbal Shampoo", price: 300, imageUrl:"https://imgur.com/RJ5EEdL.jpg" }, //
   { name: "TRESemme Shampoo", price: 1200, imageUrl:"https://imgur.com/EOofkeV.jpg" }, //
   { name: "Vierro Shampoo", price: 550, imageUrl:"https://imgur.com/sILVre7.jpg" }, //
-  { name: "Shampoo Hair Color", price: 50, imageUrl:".https://imgur.com/gUGcrLT.jpg" }, //
-  { name: "Yardlie Black Hair Shampoo", price: 1000, imageUrl:".https://imgur.com/sLJkL2T.jpg" }, //
+  { name: "Shampoo Hair Color", price: 50, imageUrl:"https://imgur.com/gUGcrLT.jpg" }, //
+  { name: "Yardlie Black Hair Shampoo", price: 1000, imageUrl:"https://imgur.com/sLJkL2T.jpg" }, //
   { name: "Seven Herbal Oil", price: 300, imageUrl:"https://imgur.com/CDU6kmY.jpg" }, //
    { name: "Vatika Oil (L)", price: 550, imageUrl:"https://imgur.com/eQVA6lC.jpg" }, //
   { name: "Emami 7 Oil (L)", price: 600, imageUrl:"https://imgur.com/rLepFA9.jpg" }, //
